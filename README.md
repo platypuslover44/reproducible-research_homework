@@ -1,6 +1,18 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+## Question 4 
+* a) Every time you run the code you get two different random walks. In the plots, the darker blue is where they start the walk (at 0,0) and the lighter blue is where they end. The start point is fixed but end point is extremely variable. The axes are different, indicating that some walks will go much further in some directions than others. There is often a lot of going back on themselves and sometimes even travelling in a full loop, although sometimes (rarely) there is consistent travel in one direction.
+  
+* b) A random seed is a number used to initialise a pseudorandom number generator (reference?) so that when you put the same seed into the generator you always get the same sequence of numbers output (so not a truly random output). This allows you to produce random patterns that are reproducible.
+* 
+
+   b) Investigate the term **random seeds**. What is a random seed and how does it work? (5 points) \
+   c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points) \
+   d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)
+
+
+
+   
 
 ## Instructions
 
