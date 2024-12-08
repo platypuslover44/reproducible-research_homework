@@ -25,3 +25,9 @@ ggplot(Virus_Data, aes(x = log_genome_length, y = log_virion_volume)) +
   theme_minimal() + 
   theme( axis.title.x = element_text(face = "bold"), 
         axis.title.y = element_text(face = "bold"))
+
+#Predicting estimated volume of a 300kb dsDNA virus
+extrapolation = data.frame(log_genome_length = log(300))
+prediction <- predict(linear_model, extrapolation)
+exp(prediction)        
+                      
