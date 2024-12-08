@@ -34,9 +34,12 @@ Based on this, logα (intercept) = 7.0748, so **α = 1181.807116**, and based on
 
 Based on table 2 The paper found alpha to be 1,182 (246–5,675) and beta to be 1.52 (1.16–1.87) for dsDNA viruses, and my estimates fall into both of the 95% confidence intervals for both parameters.
 
-**d)** My code to plot this graph can be found at ``
+**d)** My code to plot this graph can be found in `virus_analysis.R`
 
 **e)** Based on the linear model I estimated the volume of a 300kb dsDNA virus to be 6698076 nm3
+
+
+
 
 ## Instructions
 
