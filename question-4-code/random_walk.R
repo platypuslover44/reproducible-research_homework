@@ -1,12 +1,11 @@
-#install.packages("ggplot2")
-#install.packages("gridExtra")
-
+# Installing packages 
 library(ggplot2)
 library(gridExtra)
 
-#Setting a number as the random seed - makes runif function generate the same numbers every time we run the script.
+# Setting a number as the random seed - makes runif function generate the same numbers every time we run the script.
 set.seed(44)
 
+# Generating random walks
 random_walk  <- function (n_steps) {
   
   df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
